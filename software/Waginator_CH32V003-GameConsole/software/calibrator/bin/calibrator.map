@@ -1,0 +1,53 @@
+
+bin/calibrator.elf:     file format elf32-littleriscv
+
+SYMBOL TABLE:
+00000000 l    d  .init	00000000 .init
+00000004 l    d  .text	00000000 .text
+000006a8 l    d  .fini	00000000 .fini
+20000000 l    d  .dalign	00000000 .dalign
+000006a8 l    d  .dlalign	00000000 .dlalign
+20000000 l    d  .data	00000000 .data
+20000000 l    d  .bss	00000000 .bss
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loclists	00000000 .debug_loclists
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_rnglists	00000000 .debug_rnglists
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_line_str	00000000 .debug_line_str
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .riscv.attributes	00000000 .riscv.attributes
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000004 l     F .text	00000018 I2C_write
+0000001c l     F .text	0000001e I2C_stop
+0000003a l     F .text	00000056 I2C_start.constprop.0
+00000090 l     F .text	00000028 OLED_setline
+000000b8 l     F .text	00000028 OLED_clearline
+000000e0 l     F .text	00000038 OLED_scrollDisplay
+20000002 l     O .bss	00000001 scroll
+00000118 l     F .text	000000d0 OLED_write
+00000494 l     O .text	000001e0 OLED_FONT
+20000000 l     O .bss	00000001 column
+20000001 l     O .bss	00000001 line
+000001e8 l     F .text	00000224 main
+00000674 l     O .text	0000000b OLED_INIT_CMD
+00000680 l     O .text	00000028 DIVIDER
+0000040c g     F .text	00000086 reset_handler
+20000800 g       .data	00000000 __global_pointer$
+20000000 g       .bss	00000000 _sbss
+00000000 g     F .init	00000004 jump_reset
+00000004 g       .init	00000000 _einit
+000007a0  w      .debug_info	00000000 .hidden main.c.18e44f1d
+00000eaa  w      .debug_info	00000000 .hidden system.c.6059c1b7
+20000004 g       .bss	00000000 _ebss
+000004fc  w      .debug_info	00000000 .hidden i2c_tx.c.bdfa0520
+00000bd1  w      .debug_info	00000000 .hidden oled_term.c.e421e568
+20000000 g       .dalign	00000000 _data_vma
+00000000 g       .init	00000000 _sinit
+20000800 g       .bss	00000000 _eusrstack
+20000000 g       .data	00000000 _edata
+000006a8 g       .dlalign	00000000 _data_lma
+
+
