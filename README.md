@@ -1,4 +1,4 @@
-# TomatoCube Low-Cost TinyConsole Trinket
+# TomatoCube Low-Cost Tiny Console Trinket
 
 ## Description
 This low-cost handheld console equipped with an OLED display and intuitive switch input is designed as a short, fun, and engaging activity at the Penang International Science Fair 2024.
