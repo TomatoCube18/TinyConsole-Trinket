@@ -1,0 +1,112 @@
+
+bin/tiny_tris.elf:     file format elf32-littleriscv
+
+SYMBOL TABLE:
+00000000 l    d  .init	00000000 .init
+00000004 l    d  .text	00000000 .text
+00001c64 l    d  .fini	00000000 .fini
+20000000 l    d  .dalign	00000000 .dalign
+00001c64 l    d  .dlalign	00000000 .dlalign
+20000000 l    d  .data	00000000 .data
+20000028 l    d  .bss	00000000 .bss
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loclists	00000000 .debug_loclists
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_rnglists	00000000 .debug_rnglists
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_line_str	00000000 .debug_line_str
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .riscv.attributes	00000000 .riscv.attributes
+00000000 l    d  .debug_frame	00000000 .debug_frame
+0000009a l     F .text	00000018 I2C_write
+000000b2 l     F .text	0000001e I2C_stop
+000000d0 l     F .text	00000018 PSEUDO_RND_TTRIS
+20000028 l     O .bss	00000001 RND_VAR_TTRIS
+000000e8 l     F .text	00000066 Ou_suis_Je_TTRIS
+20000039 l     O .bss	00000001 OU_SUIS_JE_X_TTRIS
+2000003f l     O .bss	00000001 OU_SUIS_JE_X_ENGAGED_TTRIS
+20000038 l     O .bss	00000001 OU_SUIS_JE_Y_TTRIS
+2000003a l     O .bss	00000001 OU_SUIS_JE_Y_ENGAGED_TTRIS
+0000014e l     F .text	000000bc rotate_Matrix_TTRIS
+20000042 l     O .bss	00000001 PIECEs_TTRIS
+00001c2c l     O .text	00000023 Pieces_TTRIS
+2000006c l     O .bss	00000019 Piece_Mat2_TTRIS
+0000020a l     F .text	0000004a SETUP_NEW_PREVIEW_PIECE_TTRIS
+20000043 l     O .bss	00000001 PIECEs_TTRIS_PREVIEW
+2000002f l     O .bss	00000001 PIECEs_rot_TTRIS
+00000254 l     F .text	00000044 GRID_STAT_TTRIS
+20000048 l     O .bss	00000024 Grid_TTRIS
+00000298 l     F .text	00000088 Check_collision_x_TTRIS
+00000320 l     F .text	00000088 Check_collision_y_TTRIS
+000003a8 l     F .text	000000f2 blitzSprite_TTRIS
+0000049a l     F .text	0000006a Convert_Nb_of_line_TTRIS
+20000034 l     O .bss	00000002 Nb_of_line_F_TTRIS
+2000002c l     O .bss	00000003 Nb_of_line_TTRIS
+00000504 l     F .text	00000080 recupe_Nb_of_line_TTRIS
+00001668 l     O .text	0000002a police_TTRIS
+00000584 l     F .text	00000078 recupe_LEVEL_TTRIS
+20000029 l     O .bss	00000001 Level_TTRIS
+000005fc l     F .text	00000174 recupe_SCORES_TTRIS.part.0
+20000036 l     O .bss	00000002 Scores_TTRIS
+00000770 l     F .text	00000016 DLY_ticks
+00000786 l     F .text	0000005e JOY_sound
+000007e4 l     F .text	00000056 I2C_start.constprop.0
+0000083a l     F .text	0000002e OLED_setpos.constprop.0
+00000868 l     F .text	000002d6 Tiny_Flip_TTRIS
+00001c1c l     O .text	00000010 MEM_TTTRIS
+000017f4 l     O .text	00000400 BACKGROUND_TTRIS
+00001bf4 l     O .text	00000027 H_Grid_TTTRIS
+2000001c l     O .data	00000005 tinyblock_TTTRIS
+20000046 l     O .bss	00000001 xx_TTRIS
+20000045 l     O .bss	00000001 yy_TTRIS
+20000014 l     O .data	00000005 tinyblock2_TTTRIS
+2000000c l     O .data	00000006 CSWTCH.256
+20000004 l     O .data	00000006 CSWTCH.257
+20000000 l     O .data	00000004 tiny_PREVIEW_block_TTTRIS
+00000b3e l     F .text	0000015e Flip_intro_TTRIS
+000016d4 l     O .text	00000120 chateau_TTRIS
+000016b4 l     O .text	00000020 start_button_1_TTRIS
+00001694 l     O .text	00000020 start_button_2_TTRIS
+00000c9c l     F .text	00000046 CHANGE_GRID_STAT_TTRIS.isra.0
+00000ce2 l     F .text	00000054 PAINT_LINE_TTRIS
+00000d36 l     F .text	0000006c Game_Play_TTRIS
+20000030 l     O .bss	00000001 Level_Speed_ADJ_TTRIS
+00000da2 l     F .text	00000842 main
+00001c50 l     O .text	00000011 OLED_INIT_CMD
+2000003c l     O .bss	00000001 LONG_PRESS_X_TTRIS
+20000041 l     O .bss	00000001 DOWN_DESACTIVE_TTRIS
+2000003b l     O .bss	00000001 DROP_SPEED_TTRIS
+20000032 l     O .bss	00000001 SPEED_x_trig_TTRIS
+20000031 l     O .bss	00000001 DROP_TRIG_TTRIS
+20000040 l     O .bss	00000001 Ripple_filter_TTRIS
+20000044 l     O .bss	00000001 DROP_BREAK_TTRIS
+2000003e l     O .bss	00000001 DEPLACEMENT_XX_TTRIS
+2000003d l     O .bss	00000001 DEPLACEMENT_YY_TTRIS
+20000024 l     O .data	00000004 CSWTCH.234
+00000000 l    df *ABS*	00000000 muldi3.o
+00000000 l    df *ABS*	00000000 div.o
+000015e4 g     F .text	00000082 reset_handler
+00002f4a  w      .debug_info	00000000 .hidden system.c.0ae384bc
+20000800 g       .data	00000000 __global_pointer$
+20000028 g       .bss	00000000 _sbss
+00000024 g     F .text	0000002c .hidden __hidden___udivsi3
+00000000 g     F .init	00000004 jump_reset
+00000024 g     F .text	0000002c .hidden __udivsi3
+00000004 g       .init	00000000 _einit
+00001dd1  w      .debug_info	00000000 .hidden main.c.3ef537cc
+00001b2d  w      .debug_info	00000000 .hidden i2c_tx.c.d089ef17
+20000088 g       .bss	00000000 _ebss
+00000050 g     F .text	00000008 .hidden __umodsi3
+00000004 g     F .text	00000014 .hidden __mulsi3
+20000000 g       .dalign	00000000 _data_vma
+0000001c g     F .text	00000058 .hidden __divsi3
+00000000 g       .init	00000000 _sinit
+20000800 g       .bss	00000000 _eusrstack
+20000028 g       .data	00000000 _edata
+00001c64 g       .dlalign	00000000 _data_lma
+00000074 g     F .text	00000024 .hidden __modsi3
+00002d99  w      .debug_info	00000000 .hidden oled_min.c.f64f5fe8
+
+

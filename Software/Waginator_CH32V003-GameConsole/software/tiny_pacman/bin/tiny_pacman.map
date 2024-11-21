@@ -1,0 +1,66 @@
+
+bin/tiny_pacman.elf:     file format elf32-littleriscv
+
+SYMBOL TABLE:
+00000000 l    d  .init	00000000 .init
+00000004 l    d  .text	00000000 .text
+00001bd8 l    d  .fini	00000000 .fini
+20000000 l    d  .dalign	00000000 .dalign
+00001bd8 l    d  .dlalign	00000000 .dlalign
+20000000 l    d  .data	00000000 .data
+20000010 l    d  .bss	00000000 .bss
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loclists	00000000 .debug_loclists
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_rnglists	00000000 .debug_rnglists
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_line_str	00000000 .debug_line_str
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .riscv.attributes	00000000 .riscv.attributes
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000004 l     F .text	00000018 I2C_write
+0000001c l     F .text	0000001e I2C_stop
+0000003a l     F .text	0000001c checkDotPresent
+20000018 l     O .bss	00000009 dotsMem
+00000056 l     F .text	000000ae return_if_sprite_present
+20000013 l     O .bss	00000001 INGAME
+00000e8c l     O .text	000000c0 caracters
+20000011 l     O .bss	00000001 Frame
+20000012 l     O .bss	00000001 TimerGobeactive
+20000015 l     O .bss	00000001 GobbingEND
+20000014 l     O .bss	00000001 Gobeactive
+00000104 l     F .text	0000008a SpriteWrite
+0000018e l     F .text	00000016 DLY_ticks
+000001a4 l     F .text	00000054 JOY_sound
+000001f8 l     F .text	00000056 I2C_start.constprop.0
+0000024e l     F .text	00000b88 main
+00000e58 l     O .text	00000011 OLED_INIT_CMD
+20000016 l     O .bss	00000001 LEVELSPEED
+20000017 l     O .bss	00000001 LIVE
+20000010 l     O .bss	00000001 dotscount
+0000134c l     O .text	00000400 back
+20000000 l     O .data	00000002 rnval
+0000174c l     O .text	00000400 BackBlitz
+00000e6c l     O .text	00000020 fruits
+00000f4c l     O .text	00000400 dots
+20000008 l     O .data	00000007 CSWTCH.104
+00001b4c l     O .text	0000008c Music
+00000dd6 g     F .text	00000080 reset_handler
+20000800 g       .data	00000000 __global_pointer$
+000019c1  w      .debug_info	00000000 .hidden oled_min.c.d759f99f
+20000010 g       .bss	00000000 _sbss
+00000c00  w      .debug_info	00000000 .hidden i2c_tx.c.06a4ff11
+00000000 g     F .init	00000004 jump_reset
+00000004 g       .init	00000000 _einit
+20000024 g       .bss	00000000 _ebss
+20000000 g       .dalign	00000000 _data_vma
+00000000 g       .init	00000000 _sinit
+20000800 g       .bss	00000000 _eusrstack
+00001b72  w      .debug_info	00000000 .hidden system.c.54d129c1
+20000010 g       .data	00000000 _edata
+00001bd8 g       .dlalign	00000000 _data_lma
+00000ea4  w      .debug_info	00000000 .hidden main.c.8d45361d
+
+
